@@ -29,7 +29,9 @@ TODO:
 * Controller Projection (Raycast Pointer)
 * Painting
 * Export Painted Image
-* Detect HMD
+* Analytics
+    * Detect HMD
+    * Unique ID for count?
 
 
 
