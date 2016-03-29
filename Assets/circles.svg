@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-60 -60 120 120">
-  <circle cx="0" cy="0" r="60" fill="#f66"></circle>
-  <circle cx="0" cy="0" r="55" fill="#f99"></circle>
-  <circle cx="0" cy="0" r="50" fill="#fcc"></circle>
-  <circle cx="0" cy="0" r="45" fill="#fed"></circle>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-17.3205080757 -17.3205080757 34.6410161514 34.6410161514">
+  <circle cx="0" cy="0" r="17.3205080757" fill="#f66"></circle>
+  <circle cx="0" cy="0" r="14.2814800674" fill="#f99"></circle>
+  <circle cx="0" cy="0" r="11.9175359259" fill="#fcc"></circle>
+  <circle cx="0" cy="0" r="10" fill="#fed"></circle>
 
-  <circle cx="0" cy="0" r="40" fill="#66f"></circle>
-  <circle cx="0" cy="0" r="35" fill="#99f"></circle>
-  <circle cx="0" cy="0" r="30" fill="#ccf"></circle>
-  <circle cx="0" cy="0" r="25" fill="#def"></circle>
+  <circle cx="0" cy="0" r="8.39099631177" fill="#66f"></circle>
+  <circle cx="0" cy="0" r="7.0020753821" fill="#99f"></circle>
+  <circle cx="0" cy="0" r="5.7735026919" fill="#ccf"></circle>
+  <circle cx="0" cy="0" r="4.66307658155" fill="#def"></circle>
 
-  <circle cx="0" cy="0" r="20" fill="#6f6"></circle>
-  <circle cx="0" cy="0" r="15" fill="#9f9"></circle>
-  <circle cx="0" cy="0" r="10" fill="#cfc"></circle>
-  <circle cx="0" cy="0" r="5" fill="#efd"></circle>
+  <circle cx="0" cy="0" r="3.63970234266" fill="#6f6"></circle>
+  <circle cx="0" cy="0" r="2.67949192431" fill="#9f9"></circle>
+  <circle cx="0" cy="0" r="1.76326980708" fill="#cfc"></circle>
+  <circle cx="0" cy="0" r="0.87488663525" fill="#efd"></circle>
 </svg>
