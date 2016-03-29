@@ -1,0 +1,22 @@
+# fovtester
+
+I need to get up to speed on Unity 5.4 anyway, so this is a simple project to try out some new stuff and to also create a useful app relatively quickly.
+
+This app will let you look at an image and color in and export your personal FOV for each device.
+
+```
+R      Recenter
+L      Lock or unlock
+Enter  Export
+C      Clear/Reset
+
+Use the controller and either hit 'a' or pull the trigger to color
+```
+
+## License
+
+This project, except otherwise noted, is licensed under the GPLv3.
+
+Exceptions:
+
+* SteamVR Plugin https://www.assetstore.unity3d.com/en/#!/content/32647
