@@ -2,30 +2,57 @@
 using System.Collections;
 
 public class main : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        // Reset (doesn't matter w/ locked quad, but whevs
+        if (Input.GetKeyDown("r"))
+        {
+            UnityEngine.VR.InputTracking.Recenter();
+        }
+
+
+        if (Camera.current)
+        {
+            // Lock Position 
+            this.transform.position = Camera.current.transform.position + (Camera.current.transform.forward * 10);
+
+            // Lock Angle
+            this.transform.forward = Camera.current.transform.forward;
+
+            // Don't care about rotation
+        }
+    }
 }
 
 
 /* 
 
 TODO:
-* Main Scene
-* 120 degree Quad
-* Recenter
-* Locking
-* Support for:
+x Main Scene
+x 120 degree Quad
+
+http://www.panohelp.com/lensfov.html
+x = DistanceFromWall
+y = WallDistance/2
+α = FOV° / 2
+
+α = tan-1(y/x)
+x = y / tan(α)
+y = tan(α) * x
+
+FOV° = 2 * tan-1(y/x)
+    
+    
+    * Support for:
   * CV1
   * DK2
   * Vive
+
 * Controller Projection (Raycast Pointer)
 * Painting
 * Export Painted Image
