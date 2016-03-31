@@ -19,7 +19,7 @@ public class main : MonoBehaviour {
         if (Camera.current)
         {
             // Lock Position 
-            this.transform.position = Camera.current.transform.position + (Camera.current.transform.forward * 10);
+            this.transform.position = Camera.current.transform.position + (Camera.current.transform.forward * 100);
 
             // Lock Angle
             this.transform.forward = Camera.current.transform.forward;
