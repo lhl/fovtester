@@ -19,4 +19,5 @@ This project, except otherwise noted, is licensed under the GPLv3.
 
 Exceptions:
 
+* Oculus Utilities for Unity https://developer.oculus.com/downloads/game-engines/1.3.0/Oculus_Utilities_for_Unity_5/
 * SteamVR Plugin https://www.assetstore.unity3d.com/en/#!/content/32647
