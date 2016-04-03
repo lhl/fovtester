@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class main : MonoBehaviour {
+    private bool locked;
     // Use this for initialization
     void Start () {
-	
+        locked = true;
 	}
 	
 	// Update is called once per frame
@@ -15,8 +16,12 @@ public class main : MonoBehaviour {
             UnityEngine.VR.InputTracking.Recenter();
         }
 
+        if (Input.GetKeyDown("l"))
+        {
+            locked = !locked;
+        }
 
-        if (Camera.current)
+        if (locked && Camera.current)
         {
             // Lock Position 
             this.transform.position = Camera.current.transform.position + (Camera.current.transform.forward * 100);
@@ -24,8 +29,19 @@ public class main : MonoBehaviour {
             // Lock Angle
             this.transform.forward = Camera.current.transform.forward;
 
-            // Don't care about rotation
+            // Lock Rotation
+            this.transform.rotation = Camera.current.transform.rotation;
         }
+
+        /* 
+        We  probably should disable tracking but this is good enough...
+
+        http://forum.unity3d.com/threads/way-to-disable-position-tracking.350322/
+        http://forum.unity3d.com/threads/how-to-disable-head-orientation-sensor-on-oculus.362933/
+        https://forums.oculus.com/community/discussion/1792/a-simple-way-to-disable-tracking
+        https://forums.oculus.com/community/discussion/19863/need-to-disable-movement-completely
+        
+        */
     }
 }
 
